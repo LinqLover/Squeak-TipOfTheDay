@@ -8,9 +8,7 @@ reopen
 	"Close first because MVC fiddles around with processes."
 	self changed: #close. 
 		
-	window := self class open.
+	window := ToolBuilder open: self.
 	
 	"---- In MVC, the lines after this will not be executed ---"
-
-	window model setExpression: self expression.
 	ToolBuilder findDefault setBoundsForWindow: window to: currentBounds.

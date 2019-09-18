@@ -2,6 +2,7 @@ toolbuilder
 headerChildren
 
 	| builder spec widget |
+	IsMascotFan ifFalse: [^ #()].
 	builder := ToolBuilder default.
 	spec := builder pluggableTextSpec new
 		model: self;
