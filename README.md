@@ -10,11 +10,12 @@ A "Did you know...?" window for Squeak
 	repository: 'github://LinqLover/Squeak-TipOfTheDay/packages';
 	load
 ```
-TipOfTheDay will be automatically registered into the system (details can be found in `TipOfTheDay >> #initialize`). To open it manually, evaluate:
+
 <p align="right">
   <img src="https://github.com/LinqLover/Squeak-TipOfTheDay/blob/master/image.png">
 </p>
 
+TipOfTheDay will be automatically registered into the system (details can be found in `TipOfTheDay >> #initialize`). To open it manually, evaluate:
 ```smalltalk
 TipOfTheDay openFirstTime
 ```
