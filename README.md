@@ -1,5 +1,9 @@
+<img align="right" src="https://github.com/LinqLover/Squeak-TipOfTheDay/blob/master/image.png" /></p>
 # Squeak-TipOfTheDay
 A "Did you know...?" window for Squeak
+
+System Requirements: Squeak 5.3 (18899 or higher)
+<br class="blank" /><br class="blank" /><br class="blank" />
 
 ## Installation
 ```smalltalk
@@ -15,5 +19,3 @@ TipOfTheDay will be automatically registered into the system (details can be fou
 ```smalltalk
 TipOfTheDay openFirstTime
 ```
-
-<p align="center"><img src="https://github.com/LinqLover/Squeak-TipOfTheDay/blob/master/image.png" /></p>
