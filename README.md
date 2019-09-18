@@ -1,6 +1,6 @@
 <p><br/><img align="right" src="https://github.com/LinqLover/Squeak-TipOfTheDay/blob/master/image.png" /></p>
 
-# Squeak-TipOfTheDay
+# Squeak-TipOfTheDay <br/> [![Build Status](https://travis-ci.com/LinqLover/Squeak-TipOfTheDay.svg?branch=master)](https://travis-ci.com/LinqLover/Squeak-TipOfTheDay) [![Coverage Status](https://coveralls.io/repos/github/LinqLover/Squeak-TipOfTheDay/badge.svg?branch=master)](https://coveralls.io/github/LinqLover/Squeak-TipOfTheDay?branch=master)
 A "Did you know...?" window for Squeak
 
 System Requirements: Squeak 5.3 (18899 or higher)
