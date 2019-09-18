@@ -3,8 +3,6 @@ sudo: false
 
 os:
   - linux
-  - osx
-  - windows
 
 smalltalk:
   - Squeak-Trunk
