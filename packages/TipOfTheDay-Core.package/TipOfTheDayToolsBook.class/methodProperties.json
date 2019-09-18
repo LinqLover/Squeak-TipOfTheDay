@@ -4,8 +4,12 @@
 		"doMenu" : "ct 9/18/2019 22:37",
 		"objectsTool" : "ct 9/18/2019 22:00",
 		"processBrowser" : "ct 9/18/2019 21:58",
+		"profiler" : "ct 9/18/2019 22:59",
+		"recoverChanges" : "ct 9/18/2019 22:55",
 		"testRunner" : "ct 9/18/2019 22:05",
 		"tipDebuggerJumpToHere" : "ct 9/18/2019 10:35",
-		"tipDebuggerReturnEnteredValue" : "ct 9/18/2019 10:38" },
+		"tipDebuggerReturnEnteredValue" : "ct 9/18/2019 10:38",
+		"transcript" : "ct 9/18/2019 23:09",
+		"updatingSqueak" : "ct 9/18/2019 22:49" },
 	"instance" : {
 		 } }
