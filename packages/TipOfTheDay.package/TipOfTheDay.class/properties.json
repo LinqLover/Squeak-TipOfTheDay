@@ -1,5 +1,5 @@
 {
-	"category" : "TipOfTheDay",
+	"category" : "TipOfTheDay-Core",
 	"classinstvars" : [
 		"showOnStartUp",
 		"latestStep" ],
