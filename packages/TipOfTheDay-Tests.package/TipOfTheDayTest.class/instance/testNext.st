@@ -7,7 +7,9 @@ testNext
 	oldTip := textMorph text asString.
 	nextButton := self subject findByLabel: 'Next tip'.
 	self assert: [nextButton morphs size = 1].
-	nextButton click.
-	newTip := textMorph text asString.
-	self assert: [newTip notEmpty].
-	self deny: oldTip equals: newTip.
+	50 timesRepeat: [
+		nextButton click.
+		newTip := textMorph text asString.
+		self assert: [newTip notEmpty].
+		self deny: oldTip equals: newTip.
+		oldTip := newTip].
