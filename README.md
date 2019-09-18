@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/LinqLover/Squeak-TipOfTheDay/blob/master/image.png" /></p>
+<p><br/><img align="right" src="https://github.com/LinqLover/Squeak-TipOfTheDay/blob/master/image.png" /></p>
 # Squeak-TipOfTheDay
 A "Did you know...?" window for Squeak
 
