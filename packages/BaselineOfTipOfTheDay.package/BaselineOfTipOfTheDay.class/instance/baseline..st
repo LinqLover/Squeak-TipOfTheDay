@@ -3,7 +3,8 @@ baseline: spec
 	<baseline>
 	spec for: #common do: [
 		spec baseline: #MorphicTestingFramework with: [
-			spec repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework/packages'].
+			spec repository: 'github://LinqLover/Morphic-Testing-Framework/packages'.
+			self flag: #ct "Wait for hpi-swa-teaching/Morphic-Testing-Framework#11, then refer back to fork origin"].
 		spec
 			package: #'TipOfTheDay-Core';
 			package: #'TipOfTheDay-Tests'.
