@@ -10,7 +10,7 @@ tipImplementorsAndSenders
 
 Just try it out, here are some messages:
 Morph allInstances select: #isInWorld.!
-]style[(28 1 65 1 72 38)f1,f1i,f1,f1i,f1,C!' readStream nextChunkText)
+]style[(28 1 65 1 72 38)f1,f1i,f1,f1i,f1,!' readStream nextChunkText)
 			key: #tipImplementorsAndSenders;
 			shouldStyle: false;
 			yourself
