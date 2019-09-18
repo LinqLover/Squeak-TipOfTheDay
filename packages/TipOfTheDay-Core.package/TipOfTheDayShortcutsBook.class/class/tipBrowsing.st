@@ -14,7 +14,7 @@ Project current world
 	withArguments: {''You set up an alarm some time ago, didn''''t you?''}
 	for: 42
 	at: Time millisecondClockValue + 2000.!
-]style[(23 7 353),Rcode://Browser open;,!' readStream nextChunkText)
+]style[(23 7 155 16 182),Rcode://Browser open;,,b,!' readStream nextChunkText)
 			key: #tipBrowsing;
 			shouldStyle: false;
 			yourself
