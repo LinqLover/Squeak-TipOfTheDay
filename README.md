@@ -5,7 +5,7 @@
 A "Did you know...?" window for Squeak
 
 System Requirements: Squeak 5.3 (18899 or higher)
-<br class="blank" /><br class="blank" /><br class="blank" />
+<br class="blank" /><br class="blank" />
 
 ## Installation
 ```smalltalk
