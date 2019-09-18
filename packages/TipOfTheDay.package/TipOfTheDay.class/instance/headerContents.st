@@ -9,7 +9,10 @@ headerContents
 		ifFalse: [^ text].
 	^ ('{1} {2}' asText format: {
 		(String value: 1) asText
-			addAttribute: (TextAnchor new anchoredMorph: MenuIcons squeakIcon asMorph);
+			addAttribute: (TextAnchor new
+				anchoredMorph: (MenuIcons squeakIcon
+					scaledToHeight: self headerHeight * 0.6) asMorph;
+				yourself);
 			flag: #ct; "When introduced, use #textAnchorVerticalAlignment:"
 			yourself.
 		text })
