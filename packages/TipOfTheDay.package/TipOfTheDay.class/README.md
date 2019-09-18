@@ -1,0 +1,1 @@
+I display a tip from an infinite generator stream. As I inherit from HelpBrowser, I am also capable of editing my tips.

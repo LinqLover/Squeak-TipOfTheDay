@@ -1,0 +1,17 @@
+{
+	"category" : "TipOfTheDay",
+	"classinstvars" : [
+		"showOnStartUp",
+		"latestStep" ],
+	"classvars" : [
+		"IsMascotFan" ],
+	"commentStamp" : "ct 9/18/2019 09:34",
+	"instvars" : [
+		"tipGenerator",
+		"myTips",
+		"selectedTipIndex" ],
+	"name" : "TipOfTheDay",
+	"pools" : [
+		 ],
+	"super" : "HelpBrowser",
+	"type" : "normal" }

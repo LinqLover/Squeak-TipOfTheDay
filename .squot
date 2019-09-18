@@ -1,0 +1,4 @@
+OrderedDictionary {
+	'packages\/TipOfTheDay.package' : #SquotCypressCodeSerializer,
+	'packages\/BaselineOfTipOfTheDay.package' : #SquotCypressCodeSerializer
+}

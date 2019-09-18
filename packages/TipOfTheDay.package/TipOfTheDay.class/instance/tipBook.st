@@ -1,0 +1,4 @@
+accessing
+tipBook
+
+	^ TipOfTheDayBook asHelpTopic

@@ -1,0 +1,4 @@
+stepping
+shouldGetStepsFrom: aWorld
+
+	^ true

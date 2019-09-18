@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfTipOfTheDay",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfTipOfTheDay",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
