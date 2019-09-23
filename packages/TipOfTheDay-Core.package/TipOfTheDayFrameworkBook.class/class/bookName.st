@@ -1,0 +1,4 @@
+accessing
+bookName
+	<generated>
+	^'Framework'
