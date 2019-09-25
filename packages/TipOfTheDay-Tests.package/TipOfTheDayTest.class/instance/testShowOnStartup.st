@@ -19,5 +19,5 @@ testShowOnStartup
 	windows := SystemWindow windowsIn: World satisfying: [:window | window model class = class].
 	self assert: [windows isEmpty]]
 		ensure: [class
-			showOnStartUp: false;
+			release;
 			removeFromSystem].
