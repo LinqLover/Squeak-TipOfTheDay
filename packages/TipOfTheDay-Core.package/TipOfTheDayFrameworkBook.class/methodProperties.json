@@ -1,10 +1,11 @@
 {
 	"class" : {
+		"blockClosures" : "ct 9/25/2019 17:51",
 		"bookName" : "ct 9/23/2019 15:17",
 		"breakpoints" : "ct 9/23/2019 15:42",
 		"breakpointsWithCaution" : "ct 9/23/2019 16:05",
-		"pages" : "ct 9/23/2019 15:42",
 		"sortFunctions" : "ct 9/23/2019 15:34",
-		"sorting" : "ct 9/23/2019 15:22" },
+		"sorting" : "ct 9/23/2019 15:22",
+		"symbolValue" : "ct 9/25/2019 17:36" },
 	"instance" : {
 		 } }
