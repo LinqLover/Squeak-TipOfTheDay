@@ -2,6 +2,9 @@ toolbuilder
 addModelItemsToWindowMenu: aMenu
 
 	super addModelItemsToWindowMenu: aMenu.
-	aMenu addLine.
-	aMenu addUpdating: #toggleMascotFanLabel target: self action: #toggleMascotFan.
-	aMenu add: 'Update TipOfTheDay' target: self class action: #installUpdates.
+	aMenu
+		addLine;
+		addUpdating: #toggleMascotFanLabel target: self action: #toggleMascotFan;
+		add: 'Update TipOfTheDay' target: self class action: #installUpdates;
+		add: 'Open GitHub repository' target: self class action: #openRepository;
+		balloonTextForLastItem: 'Please feel free to report issues, ask questions or contribute new features!'
