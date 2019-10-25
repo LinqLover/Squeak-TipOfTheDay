@@ -6,4 +6,5 @@ installUpdatesPerSe
 	Smalltalk at: #Metacello]) new
 		baseline: 'TipOfTheDay';
 		repository: 'github://LinqLover/Squeak-TipOfTheDay/packages';
+		get;
 		load.
