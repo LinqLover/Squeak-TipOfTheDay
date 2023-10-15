@@ -10,14 +10,12 @@ A "Did you know...?" window for Squeak
 
 System Requirements: Squeak 5.3 (18899 or higher)
 
-
 ## Installation
+
 ```smalltalk
-(Smalltalk at: #Metacello ifAbsent: [
-	Installer ensureRecentMetacello.
-	Smalltalk at: #Metacello]) new
+Metacello new
 	baseline: 'TipOfTheDay';
-	repository: 'github://LinqLover/Squeak-TipOfTheDay/packages';
+	repository: 'github://LinqLover/Squeak-TipOfTheDay';
 	load
 ```
 
