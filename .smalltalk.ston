@@ -9,8 +9,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #packages : [ 'TipOfTheDay*' ],
-      #categories : [ 'TipOfTheDay-Core' ]
+      #packages : [ 'TipOfTheDay-Core' ]
     }
   }
 }
