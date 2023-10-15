@@ -20,4 +20,5 @@ testShowOnStartup
 	self assert: [windows isEmpty]]
 		ensure: [class
 			release;
-			removeFromSystem].
+			removeFromSystem;
+			instVarNamed: 'showOnStartUp' put: false].
