@@ -1,4 +1,4 @@
 toolbuilder
 windowTitle
 
-	^ 'Squeak - Tip of the Day'
+	^ self class appName

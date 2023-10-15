@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"appName" : "ct 10/15/2023 19:16",
 		"durationForInactivity" : "ct 9/18/2019 09:27",
 		"durationForSnapshot" : "ct 9/18/2019 09:28",
 		"initialize" : "ct 10/15/2023 19:15",
@@ -9,7 +10,7 @@
 		"openFirstTime" : "ct 9/18/2019 09:56",
 		"openOnStartUp" : "ct 9/18/2019 09:11",
 		"openRepository" : "ct 10/17/2019 12:54",
-		"registerInWorldMenu" : "ct 10/17/2019 09:43",
+		"registerInWorldMenu" : "ct 10/15/2023 19:16",
 		"release" : "ct 9/24/2019 20:51",
 		"reset" : "ct 9/11/2019 17:58",
 		"shouldGetStepsFrom:" : "ct 9/11/2019 16:42",
@@ -18,6 +19,8 @@
 		"startUp" : "ct 9/18/2019 09:28",
 		"step" : "ct 9/18/2019 09:11",
 		"stepTime" : "ct 9/11/2019 16:36",
+		"unload" : "ct 10/15/2023 19:16",
+		"unregisterFromWorldMenu" : "ct 10/15/2023 19:16",
 		"world" : "ct 9/18/2019 19:29" },
 	"instance" : {
 		"accept:" : "ct 9/11/2019 20:50",
@@ -53,4 +56,4 @@
 		"toggleMascotFan" : "ct 9/18/2019 11:17",
 		"toggleMascotFanLabel" : "ct 9/18/2019 11:16",
 		"toggleShowOnStartUp" : "ct 9/11/2019 16:31",
-		"windowTitle" : "ct 9/11/2019 16:57" } }
+		"windowTitle" : "ct 10/15/2023 19:17" } }
