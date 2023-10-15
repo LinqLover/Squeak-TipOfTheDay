@@ -1,0 +1,28 @@
+name: smalltalkCI
+
+on:
+  push:
+  schedule:
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false  # facilitates debugging
+      matrix:
+        os: [ ubuntu-latest ]
+        smalltalk: [ Squeak64-6.0, Squeak64-Trunk ]
+    name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: hpi-swa/setup-smalltalkCI@v1
+        with:
+          smalltalk-image: ${{ matrix.smalltalk }}
+      - name: Run test suite
+        shell: bash
+        run: smalltalkci -s ${{ matrix.smalltalk }}
+        timeout-minutes: 10
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # for coverage reports
