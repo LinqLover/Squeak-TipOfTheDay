@@ -10,4 +10,3 @@ baseline: spec
 		spec
 			group: #default with: #(#'TipOfTheDay-Core');
 			group: #tests with: #(default #'TipOfTheDay-Tests' MorphicTestingFramework)].
-	spec postLoadDoIt: #postLoad.
