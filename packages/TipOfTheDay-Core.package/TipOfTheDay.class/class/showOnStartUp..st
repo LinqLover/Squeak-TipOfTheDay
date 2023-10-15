@@ -11,11 +11,9 @@ showOnStartUp: aBoolean
 			
 			"Hack to continue stepping in new project."
 			Project current world
-				when: #aboutToLeaveWorld evaluate: [
-					self showOnStartUp ifTrue: [
-						self showOnStartUp: false.
-						[10 seconds wait.
-						self showOnStartUp: true] fork]]]
+				when: #aboutToLeaveWorld
+				send: #aboutToChangeWorld "must not use BlockClosure here for GC issues!"
+				to: self]
 		ifFalse: [
 			Smalltalk removeFromStartUpList: self.
 			Project current world stopStepping: self].
