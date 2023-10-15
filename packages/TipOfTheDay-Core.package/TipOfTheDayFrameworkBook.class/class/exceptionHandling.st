@@ -1,8 +1,8 @@
 pages
 exceptionHandling
-	<generated>
 	"This method was automatically generated. Edit it using:"
 	"TipOfTheDayFrameworkBook edit: #exceptionHandling"
+	<generated>
 	^(HelpTopic
 		title: 'Exception Handling'
 		contents: 
@@ -16,8 +16,7 @@ You can also respect the exception that was raised:
 
 [{} first]
 	on: Error
-	do: [:error | self inform: ''An error occurred: '', error messageText].!
-]style[(324)f1!' readStream nextChunkText)
+	do: [:error | self inform: ''An error occurred: '', error messageText].!' readStream nextChunkText)
 			key: #exceptionHandling;
 			shouldStyle: false;
 			yourself

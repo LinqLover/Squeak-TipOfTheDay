@@ -1,8 +1,8 @@
 pages
 symbolValue
-	<generated>
 	"This method was automatically generated. Edit it using:"
 	"TipOfTheDayFrameworkBook edit: #symbolValue"
+	<generated>
 	^(HelpTopic
 		title: 'Symbol >> #value'
 		contents: 
@@ -17,7 +17,7 @@ Matrix rows: 6 columns: 7 tabulate: [:x :y | x @ y].
 Matrix rows: 6 columns: 7 tabulate: #@.
 
 So poly-morphic!!!
-]style[(28 7 12 180 6 51 34 73 53 41 2 14)f1,,Rcode://ToolSet browseClass: BlockClosure category: #''evaluating'';,,Rcode://ToolSet browseClass: Symbol category: #''evaluating'';,,=,,=,,i,!' readStream nextChunkText)
+]style[(35 12 180 6 51 34 73 53 41 2 14),Rcode://ToolSet browseClass: BlockClosure category: #''evaluating'';,,Rcode://ToolSet browseClass: Symbol category: #''evaluating'';,,=,,=,,i,!' readStream nextChunkText)
 			key: #symbolValue;
 			shouldStyle: false;
 			yourself

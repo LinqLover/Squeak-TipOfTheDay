@@ -1,8 +1,8 @@
 pages
 tipImplementorsAndSenders
-	<generated>
 	"This method was automatically generated. Edit it using:"
 	"TipOfTheDayShortcutsBook edit: #tipImplementorsAndSenders"
+	<generated>
 	^(HelpTopic
 		title: 'Implementors and senders'
 		contents: 
@@ -10,7 +10,7 @@ tipImplementorsAndSenders
 
 Just try it out!! Here is some message:
 Morph allInstances select: #isInWorld.!
-]style[(28 1 65 1 31 16 23 38)f1,f1iu,f1,f1iu,f1,f1b,f1,!' readStream nextChunkText)
+]style[(28 1 65 1 31 16 61),iu,,iu,,b,!' readStream nextChunkText)
 			key: #tipImplementorsAndSenders;
 			shouldStyle: false;
 			yourself

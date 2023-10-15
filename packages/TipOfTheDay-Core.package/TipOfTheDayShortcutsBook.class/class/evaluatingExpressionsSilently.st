@@ -1,8 +1,8 @@
 pages
 evaluatingExpressionsSilently
-	<generated>
 	"This method was automatically generated. Edit it using:"
 	"TipOfTheDayShortcutsBook edit: #evaluatingExpressionsSilently"
+	<generated>
 	^(HelpTopic
 		title: 'Evaluating expressions silently'
 		contents: 
@@ -10,7 +10,7 @@ evaluatingExpressionsSilently
 
 Here you go:
 TipOfTheDay open rotationDegrees: 180.!
-]style[(158 1 46 12 39)f1,f1iu,f1,f1b,f1!' readStream nextChunkText)
+]style[(158 1 46 12 39),iu,,b,!' readStream nextChunkText)
 			key: #evaluatingExpressionsSilently;
 			shouldStyle: false;
 			yourself

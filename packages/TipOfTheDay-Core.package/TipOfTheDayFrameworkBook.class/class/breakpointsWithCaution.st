@@ -1,8 +1,8 @@
 pages
 breakpointsWithCaution
-	<generated>
 	"This method was automatically generated. Edit it using:"
 	"TipOfTheDayFrameworkBook edit: #breakpointsWithCaution"
+	<generated>
 	^(HelpTopic
 		title: 'Breakpoints with caution'
 		contents: 
@@ -11,13 +11,13 @@ breakpointsWithCaution
 To insert the breakpoint, send #haltOnce to any object in your code:
 
 | name |
-[(name := UIManager default request: ''What is your name?'') isEmptyOrNil]
+[(name := Project uiManager request: ''What is your name?'') isEmptyOrNil]
 	whileFalse: [self inform: ''Hello '', name haltOnce].
 
 To trigger it once, send #setHaltOnce to any object, for example:
 
 1 setHaltOnce.!
-]style[(37 5 146 9 97 125 27 12 44)f1,Rcode://self browseAllImplementorsOf: #halt;,f1,Rcode://self browseAllImplementorsOf: #haltOnce;,f1,,f1,Rcode://self browseAllImplementorsOf: #setHaltOnce;,f1!' readStream nextChunkText)
+]style[(37 5 146 9 249 12 44),Rcode://self browseAllImplementorsOf: #halt;,,Rcode://self browseAllImplementorsOf: #haltOnce;,,Rcode://self browseAllImplementorsOf: #setHaltOnce;,!' readStream nextChunkText)
 			key: #breakpointsWithCaution;
 			shouldStyle: false;
 			yourself

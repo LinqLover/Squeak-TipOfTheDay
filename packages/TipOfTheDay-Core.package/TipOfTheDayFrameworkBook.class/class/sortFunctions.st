@@ -1,8 +1,8 @@
 pages
 sortFunctions
-	<generated>
 	"This method was automatically generated. Edit it using:"
 	"TipOfTheDayFrameworkBook edit: #sortFunctions"
+	<generated>
 	^(HelpTopic
 		title: 'Sort functions'
 		contents: 
@@ -19,7 +19,7 @@ However, there is an even fancier way to do this by using sort functions:
 ''This is a sorting example'' sorted: #asLowercase ascending
 
 Really convenient, isn''t it? :-)!
-]style[(24 23 49 6 4 8 139 15 59 9 2 10 19 12 15 12 29 11 41 6 131)f1,f1b,f1,Rcode://self browseAllImplementorsOf: #sort:;,f1,Rcode://self browseAllImplementorsOf: #sorted:;,f1,f1b,f1,f1b,f1,Rcode://self browseAllImplementorsOf: #ascending;,f1,LBlockClosure Definition;,f1,LSortFunction Definition;,f1,Rcode://self browseAllImplementorsOf: #descending;,f1,LSymbol Definition;,f1!' readStream nextChunkText)
+]style[(24 23 49 6 4 8 139 15 59 9 2 10 19 12 15 12 29 11 41 6 131),b,,Rcode://self browseAllImplementorsOf: #sort:;,,Rcode://self browseAllImplementorsOf: #sorted:;,,b,,b,,Rcode://self browseAllImplementorsOf: #ascending;,,LBlockClosure Definition;,,LSortFunction Definition;,,Rcode://self browseAllImplementorsOf: #descending;,,LSymbol Definition;,!' readStream nextChunkText)
 			key: #sortFunctions;
 			shouldStyle: false;
 			yourself

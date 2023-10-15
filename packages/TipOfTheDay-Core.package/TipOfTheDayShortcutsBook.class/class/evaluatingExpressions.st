@@ -1,8 +1,8 @@
 pages
 evaluatingExpressions
-	<generated>
 	"This method was automatically generated. Edit it using:"
 	"TipOfTheDayShortcutsBook edit: #evaluatingExpressions"
+	<generated>
 	^(HelpTopic
 		title: 'Evaluating expressions'
 		contents: 
@@ -10,7 +10,7 @@ evaluatingExpressions
 
 Curious? Try it out:
 Float pi i exp!
-]style[(156 1 37 8 13 14)f1,f1iu,f1,f1b,f1,!' readStream nextChunkText)
+]style[(156 1 37 8 27),iu,,b,!' readStream nextChunkText)
 			key: #evaluatingExpressions;
 			shouldStyle: false;
 			yourself

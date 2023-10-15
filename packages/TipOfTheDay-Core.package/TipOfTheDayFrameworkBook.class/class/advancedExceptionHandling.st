@@ -1,8 +1,8 @@
 pages
 advancedExceptionHandling
-	<generated>
 	"This method was automatically generated. Edit it using:"
 	"TipOfTheDayFrameworkBook edit: #advancedExceptionHandling"
+	<generated>
 	^(HelpTopic
 		title: 'Advanced Exception Handling'
 		contents: 
@@ -18,7 +18,7 @@ advancedExceptionHandling
 
 [(1 to: 20) collect: [:i | (-2 to: 2) atRandom reciprocal]]
 	on: Error do: #retry.!
-]style[(71 9 274)f1,Rcode://Browser fullOnClass: Exception category: #handling;,f1!' readStream nextChunkText)
+]style[(71 9 274),Rcode://Browser fullOnClass: Exception category: #handling;,!' readStream nextChunkText)
 			key: #advancedExceptionHandling;
 			shouldStyle: false;
 			yourself

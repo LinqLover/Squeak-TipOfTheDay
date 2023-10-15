@@ -1,8 +1,8 @@
 pages
 transcript
-	<generated>
 	"This method was automatically generated. Edit it using:"
 	"TipOfTheDayToolsBook edit: #transcript"
+	<generated>
 	^(HelpTopic
 		title: 'Transcript'
 		contents: 
@@ -10,9 +10,8 @@ transcript
 
 To output something, just evaluate one of the following:
 Transcript showln: ''This is a string.''.
-Transcript show: ''This is a string without trailing line feed.''.
-!
-]style[(102 10 1 219)f1,Rcode://Transcript open;b,f1b,f1!' readStream nextChunkText)
+Transcript show: ''This is a string without trailing line feed.''.!
+]style[(102 10 1 218),Rcode://Transcript open;b,b,!' readStream nextChunkText)
 			key: #transcript;
 			shouldStyle: false;
 			yourself

@@ -1,8 +1,8 @@
 pages
 breakpoints
-	<generated>
 	"This method was automatically generated. Edit it using:"
 	"TipOfTheDayFrameworkBook edit: #breakpoints"
+	<generated>
 	^(HelpTopic
 		title: 'Breakpoints'
 		contents: 
@@ -19,7 +19,7 @@ OrderedCollection halt withAll: {
 		halt;
 		borderColor: Color blue;
 		yourself} halt.!
-]style[(22 76 5 226)f1b,f1,Rcode://self browseAllImplementorsOf: #halt;,f1!' readStream nextChunkText)
+]style[(22 76 5 226)b,,Rcode://self browseAllImplementorsOf: #halt;,!' readStream nextChunkText)
 			key: #breakpoints;
 			shouldStyle: false;
 			yourself
