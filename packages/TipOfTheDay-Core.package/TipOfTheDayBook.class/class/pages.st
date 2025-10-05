@@ -2,4 +2,4 @@ accessing
 pages
 	<pageInvariant>
 
-	^ self class methodsInCategory: #pages
+	^ self class selectorsInCategory: #pages
