@@ -1,4 +1,4 @@
-updates
+updating
 aboutToChangeWorld
 
 	self showOnStartUp ifTrue: [
