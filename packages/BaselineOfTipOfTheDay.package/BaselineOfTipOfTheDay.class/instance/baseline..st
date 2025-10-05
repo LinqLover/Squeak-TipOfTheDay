@@ -14,7 +14,8 @@ baseline: spec
 					versionString: #development;
 					loads: #('Core')];
 			package: 'ExternalWebBrowser' with:
-				[spec
+				[self flag: #knownBug. "NB: On Linux, only works after restarting the VM ... god that thing is broken"
+				spec
 					repository: 'http://www.squeaksource.com/ExternalWebBrowser';
 					file: 'ExternalWebBrowser-mtf.114'];
 			baseline: #MorphicTestingFramework with:
