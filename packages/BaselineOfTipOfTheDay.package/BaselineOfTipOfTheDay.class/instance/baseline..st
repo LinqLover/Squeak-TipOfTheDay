@@ -6,6 +6,13 @@ baseline: spec
 		spec
 			baseline: 'CtAppFramework' with:
 				[spec repository: 'github://LinqLover/squeak-appframework:main'];
+			project: 'FFI' with: "for ExternalWebBrowser"
+				[self flag: #workaround. "ConfigurationOfExternalWebBrowser depends on ss3.gemstone.com which is down"
+				spec
+					className: 'ConfigurationOfFFI';
+					repository: 'http://www.squeaksource.com/MetacelloRepository';
+					versionString: #development;
+					loads: #('Core')];
 			package: 'ExternalWebBrowser' with:
 				[spec
 					repository: 'http://www.squeaksource.com/ExternalWebBrowser';
@@ -23,7 +30,7 @@ baseline: spec
 		"groups"
 		spec
 			group: #default with: #(#'TipOfTheDay-Core');
-			group: #recommended with: #('ExternalWebBrowser');
+			group: #recommended with: #('FFI' 'ExternalWebBrowser');
 			group: #tests with: #(default #'TipOfTheDay-Tests');
 			group: #withRecommended with: #(default recommended).
 		
