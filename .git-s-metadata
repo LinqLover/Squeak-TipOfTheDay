@@ -1,0 +1,42 @@
+GSMetadata {
+	#version : 1,
+	#mappers : OrderedCollection [
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'BaselineOfTipOfTheDay'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'TipOfTheDay-Core'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'TipOfTheDay-Tests'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'TipOfTheDay-Compatibility-Squeak60'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		}
+	],
+	#name : 'Squeak-TipOfTheDay'
+}

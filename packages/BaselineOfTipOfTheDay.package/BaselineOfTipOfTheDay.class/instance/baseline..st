@@ -19,4 +19,11 @@ baseline: spec
 		"groups"
 		spec
 			group: #default with: #(#'TipOfTheDay-Core');
-			group: #tests with: #(default #'TipOfTheDay-Tests')].
+			group: #tests with: #(default #'TipOfTheDay-Tests').
+		
+		spec for: #'squeak6.0.x' do:
+			["dependencies"
+			spec package: #'TipOfTheDay-Compatibility-Squeak60'.
+			
+			spec package: #'TipOfTheDay-Core' with:
+				[spec includes: #'TipOfTheDay-Compatibility-Squeak60']]].
