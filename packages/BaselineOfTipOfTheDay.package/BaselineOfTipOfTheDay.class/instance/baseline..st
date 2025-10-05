@@ -6,8 +6,10 @@ baseline: spec
 		spec
 			baseline: 'CtAppFramework' with:
 				[spec repository: 'github://LinqLover/squeak-appframework:main'];
-			configuration: 'ExternalWebBrowser' with:
-				[spec repository: 'http://www.squeaksource.com/MetacelloRepository'];
+			package: 'ExternalWebBrowser' with:
+				[spec
+					repository: 'http://www.squeaksource.com/ExternalWebBrowser';
+					file: 'ExternalWebBrowser-mtf.114'];
 			baseline: #MorphicTestingFramework with:
 				[spec repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework/packages'].
 		
