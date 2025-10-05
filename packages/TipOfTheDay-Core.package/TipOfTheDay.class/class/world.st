@@ -1,4 +1,4 @@
-accessing
+stepping
 world
 	"For WorldState>>#cleanseStepListForWorld:"
 

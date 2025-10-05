@@ -7,7 +7,8 @@ showOnStartUp: aBoolean
 		ifTrue: [
 			latestStep := DateAndTime now. "Don't show a tip just now"
 			Smalltalk addToStartUpList: self.
-			Project current world startStepping: self at: Time millisecondClockValue selector: #step arguments: #() stepTime: 1000.
+			Smalltalk isMorphic ifTrue:
+				[Project current world startStepping: self at: Time millisecondClockValue selector: #step arguments: #() stepTime: 1000].
 			
 			"Hack to continue stepping in new project."
 			Project current world
