@@ -17,4 +17,5 @@ showOnStartUp: aBoolean
 				to: self]
 		ifFalse: [
 			Smalltalk removeFromStartUpList: self.
-			Project current world stopStepping: self].
+			Smalltalk isMorphic ifTrue:
+				[Project current world stopStepping: self]].
