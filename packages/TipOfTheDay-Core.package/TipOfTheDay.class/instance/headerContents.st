@@ -4,14 +4,20 @@ headerContents
 	| text |
 	text :=  'Did you know...?' asText.
 	text addAttribute: (TextFontReference toFont: (
-		StrikeFont familyName: #BitstreamVeraSerif size: self headerHeight * 0.7)).
+		StrikeFont familyName: #BitstreamVeraSansForSqueak size: self headerHeight * 0.6)).
 	Smalltalk isMorphic
 		ifFalse: [^ text].
-	^ ('{1} {2}' asText format: {
+	^ ('{1}  {2}' asText format: {
 		(String value: 1) asText
 			addAttribute: (TextAnchor new
-				anchoredMorph: (MenuIcons squeakIcon
-					scaledToHeight: self headerHeight * 0.6) asMorph;
+				anchoredMorph:
+					((Form squeakLogo
+						scaledToHeight: self headerHeight * 0.8 - 2)
+							asMorph
+								in: [:m |
+									"m textAnchorProperties verticalAlignment: #bottom; verticalAlignmentLine: #bottom"
+									m textAnchorProperties verticalAlignment: #center; verticalAlignmentLine: #center];
+								yourself);
 				yourself);
 			flag: #ct; "When introduced, use #textAnchorVerticalAlignment:"
 			yourself.

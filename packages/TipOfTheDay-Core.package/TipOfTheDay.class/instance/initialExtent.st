@@ -1,4 +1,4 @@
 toolbuilder
 initialExtent
 
-	^ 450 @ 275
+	^ 450 @ (275 + self headerHeight)
