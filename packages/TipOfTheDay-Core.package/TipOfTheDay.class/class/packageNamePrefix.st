@@ -1,0 +1,4 @@
+app - accessing
+packageNamePrefix
+
+	^ 'TipOfTheDay'
