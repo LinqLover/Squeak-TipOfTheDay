@@ -6,10 +6,10 @@ selectingSelectors
 	^(HelpTopic
 		title: 'Selecting selectors'
 		contents: 
-'As every reasonable IDE, of course Squeak supports selecting the current word by double-clicking it. A faster way is to press <cmd>Space.
+'In any editor, you can select the current word by double-clicking it. A faster way is to press Cmd + Space.
 
 Just try it yourself in this text!!!
-]style[(51 26 49 10 37),b,,+++,!' readStream nextChunkText)
+]style[(95 3 1 7 37),b,bi,b,!' readStream nextChunkText)
 			key: #selectingSelectors;
 			shouldStyle: false;
 			yourself

@@ -1,20 +1,20 @@
 pages
 tipBrowsing
-	<generated>
 	"This method was automatically generated. Edit it using:"
 	"TipOfTheDayShortcutsBook edit: #tipBrowsing"
+	<generated>
 	^(HelpTopic
 		title: 'Browsing'
 		contents: 
-'Press <cmd>b to open a Browser on the selected class name. If the selection is not a class name, a MessageTrace will be shown indeed showing all references to the selected identifier.
+'Press Cmd + b in any window to open a browser on the selected class name. If the selection is not a class name, a message trace will instead show all implementors of the selected name.
 
-Just try it out!! Here are some classes:
+Just try it out!! Here is some code:
 Project current world
 	addAlarm: #inform:
-	withArguments: {''You set up an alarm some time ago, didn''''t you?''}
+	withArguments: {''Your tea is ready, Ma''''am!!''}
 	for: 42
-	at: Time millisecondClockValue + 2000.!
-]style[(23 7 155 16 182),Rcode://Browser open;,,b,!' readStream nextChunkText)
+	at: Time millisecondClockValue + 5000.!
+]style[(6 5 1 1 173 16 157),b,bi,b,,b,!' readStream nextChunkText)
 			key: #tipBrowsing;
 			shouldStyle: false;
 			yourself

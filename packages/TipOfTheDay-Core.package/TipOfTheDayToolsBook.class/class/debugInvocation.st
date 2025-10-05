@@ -6,8 +6,8 @@ debugInvocation
 	^(HelpTopic
 		title: 'Debug invocation'
 		contents: 
-'To explore the provenance of a DialogWindow, click the small arrow on its right upper corner and choose "explore dialog invocation". Or choose "debug dialog invocation" to view or restart the invocation stack.!
-]style[(31 12 166),Rcode://UIManager default chooseFrom: #(''Aha!!'' ''Cool, thank you!!'') title: ''This is a dialog window, for example.'';,!' readStream nextChunkText)
+'Oops!! Where did this dialog window come from? You can always find out by clicking the small arrow on its right upper corner and choosing "debug dialog invocation".!
+]style[(16 18 103 25 1),Rcode://UIManager default chooseOptionFrom: #(''Aha!!'' ''Cool, thank you!!'') title: ''This is a dialog window, for example.'';,,b,!' readStream nextChunkText)
 			key: #debugInvocation;
 			shouldStyle: false;
 			yourself

@@ -8,7 +8,10 @@ doMenu
 		contents: 
 'The Do menu in the docking bar consists of a bunch of useful commands, such as Transcript clear or Utilites closeAllDebuggers.
 
-You can even add own entries or remove existing ones by selecting the last item, "edit this list".!' readStream nextChunkText)
+You can even add own entries or remove existing ones by using the first item, "edit this list".!
+]style[(4 7 19 176 16 1),Rcode://
+TipOfTheDayBook openDockingBarMenuThat: [:ea | ea contents = ''Do''] filterItem: nil;b,Rcode://
+TipOfTheDayBook openDockingBarMenuThat: [:ea | ea contents = ''Do''] filterItem: nil;,,b,!' readStream nextChunkText)
 			key: #doMenu;
 			shouldStyle: false;
 			yourself

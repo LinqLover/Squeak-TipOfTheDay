@@ -6,7 +6,12 @@ openMenus
 	^(HelpTopic
 		title: 'Open menus'
 		contents: 
-'Press escape to open a context menu at the cursor position. To choose a certain menu item, just type a substring to select it and then press Enter.!' readStream nextChunkText)
+'To open a context menu at the cursor, press Escape You can also type into the menu to select an item.
+
+Ready? Select the next line, press Escape, type but, and press Enter!!
+
+self inform: ''Hi!!''!
+]style[(44 6 14 4 35 6 42 3 38),b,,b,,b,,i,!' readStream nextChunkText)
 			key: #openMenus;
 			shouldStyle: false;
 			yourself

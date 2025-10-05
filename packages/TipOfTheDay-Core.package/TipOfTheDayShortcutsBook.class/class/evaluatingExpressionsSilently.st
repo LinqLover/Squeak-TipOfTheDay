@@ -6,11 +6,13 @@ evaluatingExpressionsSilently
 	^(HelpTopic
 		title: 'Evaluating expressions silently'
 		contents: 
-'Squeak allows performing any subexpression of a method at any time. This is a good way to configure things in your image or test concepts lively. To silently do an expression, select it and press <cmd>d.
+'Whereever you see code in Squeak, you can immediately execute it!! Just select some part of it and press Cmd + d. 
 
 Here you go:
-TipOfTheDay open rotationDegrees: 180.!
-]style[(158 1 46 12 39),iu,,b,!' readStream nextChunkText)
+TipOfTheDay open rotationDegrees: 180.
+
+These so-called do-its are a great way to test code as you write it. For example, you can perfom do-its on any subexpression of a method in a browser or debugger (unless the expression depends on a variable).!
+]style[(104 7 4 12 57 6 186),b,,b,,ib,!' readStream nextChunkText)
 			key: #evaluatingExpressionsSilently;
 			shouldStyle: false;
 			yourself

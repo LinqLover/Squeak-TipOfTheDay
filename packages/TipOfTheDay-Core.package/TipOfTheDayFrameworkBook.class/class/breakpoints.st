@@ -10,7 +10,7 @@ breakpoints
 
 self halt.
 
-As #halt is implemented on Object, you even can send it to any object without breaking a big expression:
+As #halt is implemented on Object and returns the receiver, you even can send it to any object without breaking a big expression. E.g., do the following and proceed from every halt:
 
 OrderedCollection halt withAll: {
 	nil halt.
@@ -19,7 +19,7 @@ OrderedCollection halt withAll: {
 		halt;
 		borderColor: Color blue;
 		yourself} halt.!
-]style[(22 76 5 226)b,,Rcode://self browseAllImplementorsOf: #halt;,!' readStream nextChunkText)
+]style[(22 76 5 303)b,,Rcode://self browseAllImplementorsOf: #halt;,!' readStream nextChunkText)
 			key: #breakpoints;
 			shouldStyle: false;
 			yourself

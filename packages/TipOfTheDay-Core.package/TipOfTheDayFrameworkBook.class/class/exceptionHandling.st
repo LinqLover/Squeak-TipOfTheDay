@@ -12,11 +12,12 @@ exceptionHandling
 	on: Error
 	do: [self inform: error messageText].
 
-You can also respect the exception that was raised:
+You can also access the exception that was raised:
 
 [{} first]
 	on: Error
-	do: [:error | self inform: ''An error occurred: '', error messageText].!' readStream nextChunkText)
+	do: [:error | self inform: ''An error occurred: '', error messageText].!
+]style[(3 9 1 9 301),b,bi,b,!' readStream nextChunkText)
 			key: #exceptionHandling;
 			shouldStyle: false;
 			yourself

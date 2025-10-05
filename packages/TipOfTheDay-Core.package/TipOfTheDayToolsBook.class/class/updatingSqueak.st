@@ -6,10 +6,13 @@ updatingSqueak
 	^(HelpTopic
 		title: 'Updating Squeak'
 		contents: 
-'Via the Squeak menu in the upper left corner of the docking bar, you can update your image and install the latest changes to Squeak. These include various improvements to all components of your image, from simple bug fixes and stability improvements up to completely new tools and features.
+'Via the Squeak menu in the upper left corner of the docking bar, you can update your image and install the latest changes to Squeak. This may include improvements to various components of your image, from simple bug fixes and performance improvements up to completely new tools and features.
 
-Why don''t just try your luck? :-)!
-]style[(73 17 1 234),b,i,!' readStream nextChunkText)
+Why not try your luck right now? :-)!
+]style[(8 11 54 17 1 238),Rcode://
+TipOfTheDayBook
+			openDockingBarMenuThat: [:m | m contents = '''']
+			filterItem: ''Update Squeak'';,,b,i,!' readStream nextChunkText)
 			key: #updatingSqueak;
 			shouldStyle: false;
 			yourself

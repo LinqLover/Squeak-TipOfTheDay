@@ -1,0 +1,14 @@
+{
+	"category" : "TipOfTheDay-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TipOfTheDayMiscellaneousBook",
+	"pools" : [
+		 ],
+	"super" : "TipOfTheDayBook",
+	"type" : "normal" }

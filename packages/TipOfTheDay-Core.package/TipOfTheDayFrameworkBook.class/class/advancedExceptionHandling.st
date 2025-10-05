@@ -10,15 +10,15 @@ advancedExceptionHandling
 
 [self error + 1]
 	on: Error
-	do: [:e | e return: 41].
+	do: [:ex | ex return: 41].
 
-[{1. 2. 0. 4} collect: #reciprocal]
+[{1. 2. 0. 4} collect: [:ea | ea reciprocal]]
 	on: Error
-	do: [:error | error resume: Float infinity].
+	do: [:ex | ex resume: Float infinity].
 
 [(1 to: 20) collect: [:i | (-2 to: 2) atRandom reciprocal]]
-	on: Error do: #retry.!
-]style[(71 9 274),Rcode://Browser fullOnClass: Exception category: #handling;,!' readStream nextChunkText)
+	on: Error do: [:ex | ex retry].!
+]style[(71 9 86 7 79 7 104 5 2),Rcode://ToolSet browseClass: Exception category: #handling;,,b,,b,,b,!' readStream nextChunkText)
 			key: #advancedExceptionHandling;
 			shouldStyle: false;
 			yourself
