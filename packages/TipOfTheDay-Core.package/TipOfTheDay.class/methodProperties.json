@@ -3,6 +3,7 @@
 		"aboutToChangeWorld" : "ct 10/15/2023 21:08",
 		"appName" : "ct 10/15/2023 19:16",
 		"cleanUp:" : "ct 10/15/2023 21:09",
+		"defaultHelpBrowser" : "ct 10/4/2025 21:14",
 		"durationForInactivity" : "ct 9/18/2019 09:27",
 		"durationForSnapshot" : "ct 9/18/2019 09:28",
 		"githubRepositoryParams" : "ct 10/4/2025 04:04",
@@ -25,7 +26,6 @@
 		"unregisterFromWorldMenu" : "ct 10/15/2023 19:16",
 		"world" : "ct 9/18/2019 19:29" },
 	"instance" : {
-		"accept:" : "ct 9/11/2019 20:50",
 		"addModelItemsToWindowMenu:" : "ct 10/4/2025 04:03",
 		"buildFooterWith:" : "ct 9/11/2019 16:00",
 		"buildHeaderWith:" : "ct 9/11/2019 15:09",
@@ -33,6 +33,7 @@
 		"buildWith:" : "ct 9/11/2019 19:52",
 		"changed:" : "ct 9/11/2019 16:54",
 		"close" : "ct 9/11/2019 16:09",
+		"currentTopicPath:" : "ct 10/5/2025 00:05",
 		"footerHeight" : "ct 9/11/2019 14:29",
 		"generateTipsOn:" : "ct 9/18/2019 10:23",
 		"hasNextTip" : "ct 9/18/2019 09:20",
