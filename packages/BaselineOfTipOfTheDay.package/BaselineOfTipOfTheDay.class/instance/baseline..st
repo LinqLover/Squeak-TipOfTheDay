@@ -6,6 +6,8 @@ baseline: spec
 		spec
 			baseline: 'CtAppFramework' with:
 				[spec repository: 'github://LinqLover/squeak-appframework:main'];
+			configuration: 'ExternalWebBrowser' with:
+				[spec repository: 'http://www.squeaksource.com/MetacelloRepository'];
 			baseline: #MorphicTestingFramework with:
 				[spec repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework/packages'].
 		
@@ -19,7 +21,9 @@ baseline: spec
 		"groups"
 		spec
 			group: #default with: #(#'TipOfTheDay-Core');
-			group: #tests with: #(default #'TipOfTheDay-Tests').
+			group: #recommended with: #('ExternalWebBrowser');
+			group: #tests with: #(default #'TipOfTheDay-Tests');
+			group: #withRecommended with: #(default recommended).
 		
 		spec for: #'squeak6.0.x' do:
 			["dependencies"
