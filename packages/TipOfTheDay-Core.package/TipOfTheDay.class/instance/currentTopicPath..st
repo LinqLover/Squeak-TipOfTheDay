@@ -2,4 +2,7 @@ accessing
 currentTopicPath: someTopics
 
 	super currentTopicPath: someTopics.
-	currentTopic := someTopics last. "in super, the view does this"
+	"in super, the view does this"
+	currentTopic := someTopics last.
+	currentParentTopic := someTopics atLast: 2 ifAbsent: [nil].
+	self changed: #topicContents.
